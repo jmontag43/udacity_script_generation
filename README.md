@@ -44,6 +44,7 @@ $ git clone https://github.com/jmontag43/udacity_script_generation.git
 $ sudo pip install virtualenv
 $ virtualenv -p python3.6 myenv		# Make sure you pass in your python 3.6 interpreter with -p
 $ source myenv/bin/activate
+(myenv) $ cd udacity_script_generation
 (myenv) $ pip install -r requirements.txt       # requirements-gpu.txt for gpu; requires above CUDA packages
 (myenv) $ jupyter notebook
 ```
